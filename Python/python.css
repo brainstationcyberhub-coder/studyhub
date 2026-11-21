@@ -1,0 +1,202 @@
+body{
+    background-image: 
+    linear-gradient(rgba(11, 22, 38, 0.7), rgba(11, 22, 38, 1)),
+    url("../images/pythonbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.back-button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: left;
+    background: linear-gradient(to right, #0B1626, #14263D, #1B3552);
+}
+.back-button h1{
+    background: linear-gradient(to right, rgb(234, 247, 52), rgb(241, 240, 240));
+    background-clip: text;
+    color: transparent;
+}
+.title-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title-content span,
+.title-content p{
+    margin: 5px 0;
+    font-size: 20px;
+    color: white;
+}
+strong {
+    color: #31D37C !important;
+    text-decoration: underline;
+}
+
+.title-content #back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 60px;
+    color: black;
+    background-color: #46A3BE;
+}
+#back:hover{
+    background-color: aliceblue;
+}
+.title-content a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#Python_Tutorial_2026, #First_Code_in_Python, #Python_Setup,
+#IDEs_Installation_in_Python, #Python_IDLE_and_Exploring_Number_Operations,
+#Working_With_String_in_Python, #More_on_String_in_Python,
+#List_in_Python, #Tuple_in_Python, #Set_in_Python,
+#Dictionary_in_Python, #Variable_Storage_in_Python,
+#Data_Types_in_Python, #Operators_in_Python,
+#Introduction_to_function_in_Python,
+#Working_with_Module_with_Math_in_Python,
+#Swapping_of_Variables_in_Python,
+#User_Input_in_Python, #if_in_Python,
+#else_and_Debugging_in_Python, #Nested_if_in_Python,
+#elif_in_Python, #Match_in_Python, #While_Loop_in_Python,
+#For_Loop_in_Python, #Break_Continue_in_Python,
+#Array_in_Python, #Array_functions_in_Python,
+#Arguments_in_Function_Python,
+#Global_vs_Local_Variables_in_Python,
+#Factorial_in_Python, #Recursion_in_Python,
+#Factorial_Using_Recursion_in_Python,
+#Higher_Order_Function_in_Python,
+#Anonymous_Function_using_Lambda_in_Python,
+#Filter_Function_in_Python, #Map_Reduce_Function_in_Python,
+#Inner_Function_in_Python, #Decorators_in_Python,
+#Modules_and_Packages_in_Python,
+#Special_Variable_Name_in_Python,
+#OOP_in_Python_Introduction, #Class_and_Object_in_Python,
+#init_Method_in_Python,
+#Constructor_Using_New_Method_in_Python,
+#Types_of_Methods_in_Python, #Inheritance_and_MRO_in_Python,
+#init_and_super_Method_with_Inheritance_in_Python,
+#Polymorphism_and_Duck_Typing_in_Python,
+#Operator_Overloading_in_Python, #Method_Overriding_in_Python,
+#Abstract_Class_and_Abstract_Method_in_Python,
+#Exception_Handling_in_Python, #Multithreading_in_Python {
+    background-color: rgba(5, 5, 5, 0.1);
+    border-left: 2px solid white;
+}
+
+#vid1, #vid2, #vid3, #vid4, #vid5, #vid6, #vid7, #vid8, #vid9,
+#vid10, #vid11, #vid12, #vid13, #vid14, #vid15, #vid16, #vid17,
+#vid18, #vid19, #vid20, #vid21, #vid22, #vid23, #vid24, #vid25,
+#vid26, #vid27, #vid28, #vid29, #vid30, #vid31, #vid32, #vid33,
+#vid34, #vid35, #vid36, #vid37, #vid38, #vid39, #vid40, #vid41,
+#vid42, #vid43, #vid44, #vid45, #vid46, #vid47, #vid48, #vid49,
+#vid50, #vid51, #vid52, #vid53, #vid54 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+iframe {
+    width: 90%;
+    max-width: 800px;
+    height: 60vh;
+    min-height: 250px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+textarea{
+    width: 90%;
+    max-width: 600px;
+    height: 55vh;
+    min-height: 250px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #FFC91D, #FFFFFF);
+    background-clip: text;
+    color: transparent;
+    margin-left: 20px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+h1{
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+#jump{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#jump select{
+    height: 3vh;
+    width: 15vh;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+#jump p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+}
+
+#jump details {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#jump summary {
+    cursor: pointer;
+    padding: 10px;
+    background: linear-gradient(to right, #0B1626, #14263D, #1B3552);
+    color: #EFF2BB;
+    border-radius: 15px;
+}
+
+#jump ul {
+    position: absolute;
+    background: linear-gradient(to right, #0B1626, #14263D, #1B3552);
+    width: 300px;
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 0;
+    z-index: 100;
+    border-radius: 15px;
+}
+
+#jump li {
+    list-style: none;
+    padding: 8px;
+    color:#EFF2BB;
+}
+
+#jump a {
+    text-decoration: none;
+    color: #EFF2BB;
+}
+
+#jump a:hover {
+    color: blue;
+}
+
