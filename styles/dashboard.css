@@ -1,0 +1,294 @@
+header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    background: linear-gradient(to right, #0B1626, #14263D, #1B3552);
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+header h1{
+    font-size: 50px;
+    color: #F4C542;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 30px;
+}
+
+header p{
+    color: #AAB8CA;
+}
+
+header a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #F4C542;
+}
+
+body{
+    background-image: 
+    linear-gradient(rgba(11, 22, 38, 0.7), rgba(11, 22, 38, 1)),
+    url("../images/landscape.png");
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+header p:hover{
+    color: #F4C542;
+}
+.content1{
+    border-radius: 20px;
+    display: flex;
+    height: 400px;
+}
+.content1 h2, .content2 h2, .content3 h2, .content4 h2, .content5 h2, .content5 h2{
+        margin-top: 10px;
+        margin-left: 20px;
+        background: linear-gradient(to right, rgb(224, 241, 146), rgb(193, 9, 89));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        
+}
+.content1 p, .content2 p, .content3 p,.content5 p{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: white;
+}
+#projectoverview{
+    margin-top: 30px;
+    height: 40px;
+    margin-left: 30px;
+}
+.content1 strong,#easylearning strong, #continiousgrowth strong,#focusedlearning strong, #practicalskill strong{
+    color: #F4C542;
+}
+.content2{
+    border-radius: 20px;
+    margin-top: 100px;
+}
+#whystudyhub,#whystudyhub2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between
+}
+#focusedlearning, #practicalskill{
+    margin-left:300px;
+    height: 360px;
+    width: 500px;
+    background-color: rgba(13, 6, 6, 0.5);
+    border-radius: 20px;
+}
+#easylearning, #continiousgrowth{
+    margin-right:200px;
+    height: 360px;
+    width: 500px;
+    background-color: rgba(13, 6, 6, 0.5);
+    border-radius: 20px;
+}
+#whystudyhub h3,#whystudyhub2 h3,#easylearning h3, #continiousgrowth h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, rgba(123, 47, 247, 0.838), rgba(0, 198, 255, 0.317));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    margin-left: 20px;
+} 
+#whystudyhub p,#whystudyhub2 p,#easylearning p, #continiousgrowth p{
+    margin-left: 25px;
+}
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+    color:gray;
+}
+blockquote{
+    margin-left: 390px;
+    margin-right: 390px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-left: 5px solid #F4C542;
+    border-right: 5px solid #F4C542;
+}
+.content3 table{
+    margin-left: 380px;
+    margin-right: 300px;
+    width: 50%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.content3 th, .content3 td{
+    padding: 10px;
+}
+.content3 th{
+    background-color: #F4C542;
+    color: #0B1626;
+}
+.content3 tr:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.content3 table caption{
+    font-size: 22px;
+    font-weight: bold;
+}
+.content3 table caption:hover{
+    color: #F4C542;
+}
+.content3 tfoot td{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: #F4C542;
+}
+.content4 article{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left: 1px solid wheat
+}
+.content4 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.content4 #isfaqevandipro, .content4 #ibtishammuhit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content4 .member-info{
+    display: flex;
+    flex-direction: column;
+}
+.content4 #isfaqevandipro h4, .content4 #ibtishammuhit h4{
+    margin: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content4 #isfaqevandipro p, .content4 #ibtishammuhit p{
+    margin: 0;
+    color: #F4C542;
+    font-size: 14px;
+    font-variant: small-caps;
+}
+.content4 section{
+    margin-left: 20px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #E8D5B7, #FFF5E6);
+    border-radius: 10px;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content4 section strong, .content4 section em{
+    background: linear-gradient(to right, rgb(250, 245, 245), rgb(54, 172, 202));
+    background-clip: text;
+    color: transparent;
+}
+.content4 a{
+    background: linear-gradient(to right, rgb(250, 245, 245), rgb(54, 172, 202));
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+.content4 a:hover{
+    color: #F4C542;
+}
+.content5 p{
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+}
+
+form h2 {
+    color: #E8A0B7;
+    text-align: center;
+}
+
+fieldset {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #D8B56A;
+    border-radius: 10px;
+}
+
+legend {
+    color: #D8B56A;
+    font-size: 18px;
+}
+
+label {
+    color: white;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #6E2142;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
